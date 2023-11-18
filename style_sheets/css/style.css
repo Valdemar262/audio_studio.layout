@@ -246,14 +246,14 @@ h1 {
 	width: 100%;
 }
 
----------------------- .epilogue {
+.epilogue {
 	max-width: 97.2%;
 	margin: 0 auto;
 }
 
 .epilogue-container {
 	max-width: 90.27vw;
-	====================margin: 0 auto;
+	margin: 0 auto;
 }
 
 .epilogue-wrapper {
