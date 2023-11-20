@@ -53,6 +53,7 @@ body {
 section {
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 
 .preview {
@@ -354,19 +355,14 @@ h4 {
 	border: 1px solid #191919;
 }
 
-.questionnaire-container::before {
+.questionnaire::before {
 	content: "";
 	background-image: url("../images/decor-2.png");
 	display: block;
 	background-size: cover;
-	width: min(147px, 10.2vw);
-	height: min(91px, 6.31vw);
+	width: min(147px, 10.20833333333333333333vw);
+	height: min(91px, 6.31944444vw);
 	position: absolute;
-	/* margin-top: 297.18px; */
-	margin-top: min(297.18px, 20.7375vw);
-	margin-left: min(-37.8px, -2.625vw);
-}
-
-.questionnaire {
-	position: relative;
+	margin-top: min(397px, 27.56944444444444vw);
+	margin-left: min(12px, 0.833vw);
 }
