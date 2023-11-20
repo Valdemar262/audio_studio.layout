@@ -355,7 +355,7 @@ h4 {
 	border: 1px solid #191919;
 }
 
-.questionnaire::before {
+.questionnaire::after {
 	content: "";
 	background-image: url("../images/decor-2.png");
 	display: block;
@@ -363,6 +363,6 @@ h4 {
 	width: min(147px, 10.20833333333333333333vw);
 	height: min(91px, 6.31944444vw);
 	position: absolute;
-	margin-top: min(397px, 27.56944444444444vw);
-	margin-left: min(12px, 0.833vw);
+	bottom: min(74px, 5.138vw);
+	left: min(34px, 2.361vw);
 }
