@@ -51,8 +51,8 @@ body {
 }
 
 section {
-	display: flex;
-	justify-content: center;
+	max-width: 1440px;
+	margin: 0 auto;
 	position: relative;
 }
 
@@ -255,6 +255,7 @@ h1 {
 .epilogue-container {
 	max-width: 90.27vw;
 	margin: 0 auto;
+	padding: 0 min(50px, 3.472vw);
 }
 
 .epilogue-wrapper {
@@ -360,8 +361,8 @@ h4 {
 	background-image: url("../images/decor-2.png");
 	display: block;
 	background-size: cover;
-	width: min(147px, 10.20833333333333333333vw);
-	height: min(91px, 6.31944444vw);
+	width: min(147px, 10.2083vw);
+	height: min(91px, 6.3194vw);
 	position: absolute;
 	bottom: min(74px, 5.138vw);
 	left: min(34px, 2.361vw);
