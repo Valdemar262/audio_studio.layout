@@ -290,9 +290,10 @@ h2 {
 h4 {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: min(33px, 2.08vw);
-	font-size: 1.2em;
+	font-size: min(22px, 1.52vw);
 	font-weight: 400;
 	line-height: 150%;
+	margin-top: min(19px, 1.32vw);
 }
 
 .epilogue-image {
@@ -381,18 +382,18 @@ h4 {
 	width: min(1300px, 90vw);
 	margin: 0 auto;
 	display: grid;
-	height: min(701px, 48.69vw);
+	height: min(746px, 51.8vw);
 	margin: min(100px, 6.94vw) min(50px, 3.472vw);
 	gap: 16px;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 321px 364px;
+	grid-template-rows: min(340px, 23.61vw) min(390px, 27.08vw);
 }
 
 h3 {
 	text-align: center;
 	font-size: min(36px, 2.5vw);
 	font-weight: 400;
-	width: min(317px, 22.013vw);
+	width: min(317px, 22.01vw);
 	margin: min(20px, 1.38vw) 0 0 0;
 }
 
@@ -403,4 +404,9 @@ h3 {
 	padding: min(50px, 3.47vw);
 	font-weight: 400;
 	justify-items: center;
+	align-items: center;
+}
+
+.star {
+	width: min(18px, 1.25vw);
 }
