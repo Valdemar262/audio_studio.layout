@@ -359,7 +359,7 @@ h4 {
 
 .questionnaire::after {
 	content: "";
-	background-image: url("../images/decor-2.png");
+	background-image: url("../images/decor-4.svg");
 	display: block;
 	background-size: cover;
 	width: min(147px, 10.2083vw);
