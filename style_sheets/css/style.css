@@ -358,12 +358,12 @@ h4 {
 
 .questionnaire::after {
 	content: "";
-	background-image: url("../images/decor-2.png");
+	background-image: url("../images/decor-2.svg");
 	display: block;
 	background-size: cover;
-	width: min(147px, 10.20833333333333333vw);
-	height: min(91px, 6.31944444444444444vw);
+	width: min(147px, 10.2083vw);
+	height: min(91px, 6.3194vw);
 	position: absolute;
-	bottom: min(74px, 5.138888888888888vw);
+	bottom: min(74px, 5.138vw);
 	left: min(32px, 2.22vw);
 }
