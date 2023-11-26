@@ -397,7 +397,7 @@ h3 {
 	margin: min(20px, 1.38vw) 0 0 0;
 }
 
-.map {
+.card-box {
 	display: grid;
 	background-color: #000;
 	border-radius: min(32px, 2.22vw);
