@@ -53,7 +53,6 @@ body {
 section {
 	max-width: 1440px;
 	margin: 0 auto;
-	position: relative;
 }
 
 .preview {
@@ -306,6 +305,7 @@ h4 {
 
 .questionnaire {
 	max-width: 1440px;
+	position: relative;
 }
 
 .questionnaire-container {
@@ -359,13 +359,13 @@ h4 {
 
 .questionnaire::after {
 	content: "";
-	background-image: url("../images/decor-2.png");
+	background-image: url("../images/decor-2.svg");
 	display: block;
 	background-size: cover;
 	width: min(147px, 10.2083vw);
 	height: min(91px, 6.3194vw);
 	position: absolute;
-	bottom: min(74px, 5.1388vw);
+	bottom: min(74px, 5.138vw);
 	left: min(32px, 2.22vw);
 }
 
@@ -409,4 +409,6 @@ h3 {
 
 .star {
 	width: min(18px, 1.25vw);
+	bottom: min(74px, 5.138vw);
+	left: min(32px, 2.22vw);
 }
