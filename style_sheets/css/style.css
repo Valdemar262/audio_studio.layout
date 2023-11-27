@@ -53,7 +53,6 @@ body {
 section {
 	max-width: 1440px;
 	margin: 0 auto;
-	position: relative;
 }
 
 .preview {
@@ -306,6 +305,7 @@ h4 {
 
 .questionnaire {
 	max-width: 1440px;
+	position: relative;
 }
 
 .questionnaire-container {
@@ -359,13 +359,13 @@ h4 {
 
 .questionnaire::after {
 	content: "";
-	background-image: url("../images/decor-4.svg");
+	background-image: url("../images/decor-2.svg");
 	display: block;
 	background-size: cover;
 	width: min(147px, 10.2083vw);
 	height: min(91px, 6.3194vw);
 	position: absolute;
-	bottom: min(74px, 5.1388vw);
+	bottom: min(74px, 5.138vw);
 	left: min(32px, 2.22vw);
 }
 
@@ -375,7 +375,7 @@ h4 {
 
 .cards-container {
 	max-width: 1400px;
-	margin: 0 auto;
+	margin: 0 min(20px, 1.38vw);
 }
 
 .cards-wrapper {
@@ -397,7 +397,7 @@ h3 {
 	margin: min(20px, 1.38vw) 0 0 0;
 }
 
-.map {
+.card-box {
 	display: grid;
 	background-color: #000;
 	border-radius: min(32px, 2.22vw);
@@ -424,24 +424,24 @@ h3 {
 .footer-wrapper {
 	width: min(1300px, 90.27vw);
 	display: flex;
-	justify-content: end;
 	padding: min(100px, 6.94vw) 0;
+	margin: 0 auto;
 }
 
 .emblem-logo {
-	width: 224px;
+	width: min(224px, 15.55vw);
 	margin-bottom: min(23px, 1.6vw);
 }
 
 .footer-wrapper_emblem {
 	display: flex;
 	flex-direction: column;
-	width: min(447px, 31.04vw);
+	width: min(463px, 32.15vw);
 }
 
 .footer-wrapper_menu,
 .footer-wrapper_help {
-	width: min(183px, 12.7vw);
+	width: min(195px, 13.54vw);
 	padding-left: min(16px, 1.1vw);
 }
 
@@ -454,7 +454,7 @@ h3 {
 .help-key_button {
 	color: #FFF;
 	text-decoration: none;
-	font-size: 95%;
+	font-size: min(18px, 1.25vw);
 	font-weight: 200;
 }
 
@@ -468,4 +468,15 @@ h3 {
 .application-icon {
 	display: flex;
 	gap: 17px;
+	bottom: min(74px, 5.138vw);
+	left: min(32px, 2.22vw);
+}
+
+.application-button {
+	width: 2.2vw;
+	max-width: 32px;
+}
+
+.messenger {
+	width: min(24px, 1.67vw);
 }
