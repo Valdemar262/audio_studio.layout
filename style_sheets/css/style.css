@@ -33,18 +33,22 @@ body {
 	margin: 0.91em 0;
 }
 
+.menu-items {
+	transition: all 0.5s ease;
+}
+
 .menu-items:hover {
 	color: #000;
 	background: #FFF;
 	border-radius: min(30px, 2vw);
 	padding: 0 min(10px, 0.7vw);
 	font-size: min(20px, 1.38vw);
-	transition: all 0.5s ease
+	transition: all 0.5s ease;
 }
 
 .menu-items_footer:hover {
 	color: #9c6f6f;
-	transition: all 0.5s ease
+	transition: all 0.5s ease;
 }
 
 .headers-menu_button {
@@ -211,14 +215,23 @@ h1::after {
 	padding: 0.67em 0.83em;
 }
 
+.button {
+	transition: all 0.5s ease;
+}
+
 .button:hover {
 	background: #095566;
-	transition: all 0.5s ease
+	transition: all 0.5s ease;
+}
+
+.methods {
+	transition: color 0.5s ease;
 }
 
 .methods:hover {
-	background: rgb(207, 194, 5);
-	transition: all 0.5s ease
+	/* background: rgb(207, 194, 5); */
+	color: rgb(255, 146, 4);
+	transition: color 0.5s ease;
 }
 
 .scene-description_title {
