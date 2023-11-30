@@ -226,6 +226,7 @@ h1::after {
 
 .methods {
 	transition: color 0.5s ease;
+	cursor: pointer;
 }
 
 .methods:hover {
