@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-	padding-top: 1.44em;
+	padding-top: min(26px, 1.8vw);
 }
 
 .header-container {
@@ -84,7 +84,7 @@ section {
 .preview-container {
 	max-width: 1400px;
 	margin: 0 auto;
-	padding: min(50px, 3.47vw);
+	padding: 0 min(50px, 3.47vw);
 }
 
 .preview-wrapper {
@@ -130,7 +130,7 @@ h1::after {
 }
 
 .title-contacts {
-	margin: 0 0 1em 1em;
+	margin: 0 0 min(16px, 1.1) min(22px, 1.53);
 }
 
 .preview-description {
@@ -146,7 +146,6 @@ h1::after {
 	max-width: 17vw;
 	display: flex;
 	gap: 1em;
-	margin-left: 1em;
 }
 
 .contacts_application {
@@ -159,7 +158,7 @@ h1::after {
 }
 
 .contacts-wrapper {
-	font-size: 0.8em;
+	font-size: min(15px, 1.1vw);
 
 }
 
@@ -389,6 +388,7 @@ h4 {
 .questionnaire-wrapper_legend {
 	color: #118DA8;
 	margin: 0;
+	font-size: min(18px, 1.25vw);
 }
 
 .questionnaire_title {
