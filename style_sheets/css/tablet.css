@@ -1,27 +1,21 @@
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
-	.preview-wrapper {
-		flex-direction: column;
+	.headers-menu_button {
+		display: none;
+	}
+
+	.headers-menu_button-main {
+		display: none;
+	}
+
+	.header-menu {
+		background-image: url(../images/hamburger-menu.svg);
+		background-size: min(50px, 3.47vw) min(50px, 3.47vw);
+		width: min(50px, 3.47vw);
+		height: min(50px, 3.47vw);
+	}
+
+	.header-container {
 		align-items: center;
-	}
-
-	.preview-description {
-		text-align: center;
-		padding: min(60px, 4.16vw) 0 0 0;
-		width: 70%;
-	}
-
-	.contacts-wrapper {
-		display: flex;
-		justify-content: center;
-		gap: min(50px, 3.47vw);
-	}
-
-	.decor-1 {
-		display: none;
-	}
-
-	h1::after {
-		display: none;
 	}
 }
