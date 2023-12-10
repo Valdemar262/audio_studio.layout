@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+
+	.element-decor,
+	.preview_image {
+		display: none;
+	}
+
+	.preview-description {
+		width: min(1440px, 100vw);
+		box-sizing: none;
+		padding: 0;
+		text-align: center;
+	}
+
+	.title {
+		letter-spacing: 0.1;
+	}
+
+	.contacts-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	.title-contacts {
+		margin: 0;
+		font-size: min(30px, 2vw);
+	}
+
+	h1::after {
+		right: min(250px, 17.36vw);
+	}
+
+	.contacts-wrapper_contacts {
+		gap: min(18px, 1.25vw);
+		margin-left: min(200px, 13.8vw);
+	}
+}
