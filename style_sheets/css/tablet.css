@@ -5,8 +5,12 @@
 		display: none;
 	}
 
+	.preview-container {
+		display: flex;
+	}
+
 	.preview-description {
-		width: min(1440px, 100vw);
+		width: min(780px, 54vw);
 		box-sizing: none;
 		padding: 0;
 		text-align: center;
@@ -27,11 +31,16 @@
 	}
 
 	h1::after {
-		right: min(250px, 17.36vw);
+		right: min(335px, 23.26vw);
 	}
 
 	.contacts-wrapper_contacts {
 		gap: min(18px, 1.25vw);
 		margin-left: min(200px, 13.8vw);
 	}
+
+	.header-container {
+		height: min(67px, 4.65vw);
+	}
+
 }
