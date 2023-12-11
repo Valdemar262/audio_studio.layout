@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+	.header-container {
+		height: min(67px, 4.65vw);
+	}
+
 	.headers-menu_button {
 		display: none;
 	}
@@ -17,5 +21,48 @@
 
 	.header-container {
 		align-items: center;
+	}
+
+	.element-decor,
+	.preview_image {
+		display: none;
+	}
+
+	.preview-container {
+		display: flex;
+	}
+
+	.preview-wrapper {
+		padding-top: min(80px, 5.55vw);
+	}
+
+	.preview-description {
+		width: min(780px, 54vw);
+		box-sizing: none;
+		padding: 0;
+		text-align: center;
+	}
+
+	.title {
+		letter-spacing: 0.1;
+	}
+
+	.contacts-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	.title-contacts {
+		margin: 0;
+		font-size: min(30px, 2vw);
+	}
+
+	h1::after {
+		right: min(335px, 23.26vw);
+	}
+
+	.contacts-wrapper_contacts {
+		gap: min(18px, 1.25vw);
+		margin-left: min(200px, 13.8vw);
 	}
 }
