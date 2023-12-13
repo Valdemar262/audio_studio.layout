@@ -255,7 +255,9 @@ h1::after {
 	border-radius: min(32px, 2.22vw);
 }
 
-.scene-container_image {
+.scene-container_image_3,
+.scene-container_image_2,
+.scene-container_image_1 {
 	display: flex;
 	align-items: center;
 	margin-right: min(53px, 3.68vw);

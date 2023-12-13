@@ -65,4 +65,50 @@
 		gap: min(18px, 1.25vw);
 		margin-left: min(200px, 13.8vw);
 	}
+
+	.scene-container {
+		flex-direction: column;
+		width: min(900px, 62.5vw);
+		width: auto;
+		padding: 0;
+	}
+
+	.musical_tools,
+	.scene-description_method,
+	.scene-description_episode,
+	.scene-description_method_2 {
+		display: none;
+	}
+
+	.scene-description {
+		padding: min(40px, 2.77vw);
+		max-width: none;
+		text-align: center;
+	}
+
+	.scene-description_title,
+	.scene-description_information {
+		width: auto;
+	}
+
+	.scene-container_image_3,
+	.scene-container_image_2,
+	.scene-container_image_1 {
+		margin: 0;
+		height: min(600px, 41.6vw);
+		border-radius: min(32px, 2.22vw);
+		background-size: min(1300px, 92.8vw);
+	}
+
+	.scene-container_image_3 {
+		background-image: url(../images/episode_3_adaptation.jpg);
+	}
+
+	.scene-container_image_2 {
+		background-image: url(../images/episode_2_adaptation.jpg);
+	}
+
+	.scene-container_image_1 {
+		background-image: url(../images/episode_1_adaptation.jpg);
+	}
 }
