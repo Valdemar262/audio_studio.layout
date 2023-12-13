@@ -65,4 +65,39 @@
 		gap: min(18px, 1.25vw);
 		margin-left: min(200px, 13.8vw);
 	}
+
+	.epilogue-wrapper {
+		flex-direction: column;
+	}
+
+	.epilogue-description {
+		display: flex;
+		width: auto;
+	}
+
+	.epilogue-description_appeal {
+		display: none;
+	}
+
+	.epilogue-description {
+		display: block;
+		width: min(1000px, 69.4vw);
+	}
+
+	.epilogue-description_wrapper {
+		display: flex;
+		gap: min(50px, 3.47vw);
+		justify-content: center;
+	}
+
+	.description_text {
+		font-size: min(40px, 2.7vw);
+		text-align: center;
+	}
+
+	.description_name {
+		display: flex;
+		align-items: center;
+	}
+
 }
