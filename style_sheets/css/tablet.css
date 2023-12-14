@@ -90,6 +90,17 @@
 		justify-content: center;
 	}
 
+	.epilogue-description_for-adaptate {
+		background-image: url(../images/epilogue.png);
+		background-size: min(700px, 58.3vw) min(800px, 66.6vw);
+		width: min(700px, 58.3vw);
+		height: min(800px, 66.6vw);
+		margin: 0 auto;
+		margin-top: min(40px, 3.3vw);
+		margin-bottom: min(40px, 3.3vw);
+		border-radius: min(40px, 3.3vw);
+	}
+
 	.description_text {
 		font-size: min(40px, 2.7vw);
 		text-align: center;
@@ -98,6 +109,10 @@
 	.description_name {
 		display: flex;
 		align-items: center;
+	}
+
+	.epilogue-image {
+		display: none;
 	}
 
 }
