@@ -69,12 +69,10 @@
 	.cards-wrapper {
 		grid-template-columns: repeat(2, 1.5fr);
 		height: min(1200px, 83.3vw);
-		justify-items: center;
 	}
 
 	.card-box {
 		padding: min(10px, 0.69vw);
-		width: min(500px, 34.7vw);
 	}
 
 	.cards-information {
@@ -91,5 +89,36 @@
 
 	h4 {
 		margin-bottom: min(35px, 2.43vw);
+	}
+
+	@media (max-width: 500px) {
+
+		.cards-wrapper {
+			grid-template-columns: 1fr;
+			width: min(550px, 38.2vw);
+			height: min(300px, 20.83vw);
+		}
+
+		.card-box_2,
+		.card-box_3,
+		.card-box_4,
+		.card-box_5,
+		.card-box_6 {
+			display: none;
+		}
+
+		.card-box_1 {
+			height: min(399px, 31.8vw);
+		}
+
+		.cards-container {
+			background-image: url(../images/arrow.png);
+			background-repeat: no-repeat;
+			background-size: min(71px, 8vw), min(38px, 5vw);
+			background-position: 88% 48%;
+			display: flex;
+			justify-content: center;
+			height: min(670px, 46.5vw);
+		}
 	}
 }

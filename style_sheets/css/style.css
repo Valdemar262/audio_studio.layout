@@ -458,7 +458,12 @@ h3 {
 	margin: min(20px, 1.38vw) 0 0 0;
 }
 
-.card-box {
+.card-box_1,
+.card-box_2,
+.card-box_3,
+.card-box_4,
+.card-box_5,
+.card-box_6 {
 	display: grid;
 	background-color: #000;
 	border-radius: min(32px, 2.22vw);
