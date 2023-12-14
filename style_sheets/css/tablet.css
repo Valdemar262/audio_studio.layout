@@ -66,6 +66,18 @@
 		margin-left: min(200px, 13.8vw);
 	}
 
+	.episodes-wrapper {
+		padding-bottom: min(60px, 4.16vw);
+	}
+
+	.episodes-title {
+		justify-content: center;
+	}
+
+	.scenes-wrapper {
+		max-width: 75.27vw;
+	}
+
 	.scene-container {
 		flex-direction: column;
 		width: min(900px, 62.5vw);
@@ -76,7 +88,8 @@
 	.musical_tools,
 	.scene-description_method,
 	.scene-description_episode,
-	.scene-description_method_2 {
+	.scene-description_method_2,
+	.episodes-title_general-button {
 		display: none;
 	}
 
@@ -89,6 +102,19 @@
 	.scene-description_title,
 	.scene-description_information {
 		width: auto;
+	}
+
+	.scene-description_title {
+		font-size: min(55px, 3.82vw);
+		margin: 0;
+	}
+
+	.scene-description_information {
+		font-size: min(27px, 1.87vw);
+	}
+
+	.scene-description_button {
+		font-size: min(25px, 1.74vw);
 	}
 
 	.scene-container_image_3,
