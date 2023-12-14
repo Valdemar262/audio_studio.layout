@@ -65,4 +65,30 @@
 		gap: min(18px, 1.25vw);
 		margin-left: min(200px, 13.8vw);
 	}
+
+	.footer-wrapper_menu,
+	.footer-wrapper_help,
+	.footer-wrapper_application {
+		display: none;
+	}
+
+	.footer-wrapper_emblem {
+		width: min(1300px, 90.27vw);
+		flex-direction: row;
+		justify-content: center;
+		gap: min(140px, 9.72vw);
+		align-items: center;
+	}
+
+	.emblem-logo {
+		margin: 0;
+	}
+
+	.emblem-wrapper {
+		display: flex;
+	}
+
+	.messenger {
+		width: min(40px, 4vw);
+	}
 }
