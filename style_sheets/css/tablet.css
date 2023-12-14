@@ -75,13 +75,11 @@
 	}
 
 	.scenes-wrapper {
-		max-width: 75.27vw;
+		width: max(400px, 75.27vw);
 	}
 
 	.scene-container {
 		flex-direction: column;
-		width: min(900px, 62.5vw);
-		width: auto;
 		padding: 0;
 	}
 
