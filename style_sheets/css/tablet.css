@@ -65,4 +65,31 @@
 		gap: min(18px, 1.25vw);
 		margin-left: min(200px, 13.8vw);
 	}
+
+	.cards-wrapper {
+		grid-template-columns: repeat(2, 1.5fr);
+		height: min(1200px, 83.3vw);
+		justify-items: center;
+	}
+
+	.card-box {
+		padding: min(10px, 0.69vw);
+		width: min(500px, 34.7vw);
+	}
+
+	.cards-information {
+		padding-top: min(20px, 1.5vw);
+	}
+
+	.star {
+		width: min(35px, 2.43vw);
+	}
+
+	h3 {
+		width: min(400px, 27.7vw);
+	}
+
+	h4 {
+		margin-bottom: min(35px, 2.43vw);
+	}
 }
