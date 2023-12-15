@@ -346,6 +346,7 @@ h2 {
 	font-weight: 400;
 }
 
+.description_text,
 h4 {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: min(33px, 2.08vw);
