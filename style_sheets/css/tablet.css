@@ -117,8 +117,19 @@
 			background-size: min(71px, 8vw), min(38px, 5vw);
 			background-position: 88% 48%;
 			display: flex;
-			justify-content: center;
 			height: min(670px, 46.5vw);
+			transform: rotate(180deg);
+		}
+
+		.cards-cover {
+			width: 100%;
+			background-image: url(../images/arrow.png);
+			background-repeat: no-repeat;
+			background-size: min(71px, 8vw), min(38px, 5vw);
+			background-position: 88% 48%;
+			display: flex;
+			justify-content: center;
+			transform: rotate(180deg);
 		}
 	}
 }
