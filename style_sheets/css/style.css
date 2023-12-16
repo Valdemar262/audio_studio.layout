@@ -246,7 +246,9 @@ h1::after {
 	line-height: 110%;
 }
 
-.scene-container {
+.scene-container_3,
+.scene-container_2,
+.scene-container_1 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: min(60px, 4.16vw);

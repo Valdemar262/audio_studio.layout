@@ -75,10 +75,12 @@
 	}
 
 	.scenes-wrapper {
-		width: max(400px, 75.27vw);
+		width: max(500px, 75.27vw);
 	}
 
-	.scene-container {
+	.scene-container_3,
+	.scene-container_2,
+	.scene-container_1 {
 		flex-direction: column;
 		padding: 0;
 	}
@@ -134,5 +136,46 @@
 
 	.scene-container_image_1 {
 		background-image: url(../images/episode_1_adaptation.jpg);
+	}
+
+	@media (max-width: 500px) {
+
+		.scene-container_2,
+		.scene-container_1 {
+			display: none;
+		}
+
+		.scene-container_3 {
+			max-width: 60%;
+			margin-top: min(60px, 4.16vw);
+		}
+
+		.scene-cover_element_1 {
+			max-width: 100%;
+		}
+
+		.scene-cover_element_2,
+		.scene-cover_element_1 {
+			background-image: url(../images/arrow_episodes.png);
+			background-repeat: no-repeat;
+			background-size: min(71px, 8vw), min(38px, 5vw);
+			background-position: 95% 50%;
+			display: flex;
+			justify-content: center;
+			transform: rotate(180deg);
+		}
+
+		.scene-description_title {
+			font-size: 5vw;
+		}
+
+		.scene-description_information {
+			font-size: 2.7vw;
+		}
+
+		.scene-description_button {
+			font-size: 2.5vw;
+			padding: 2vw 1.6vw;
+		}
 	}
 }
