@@ -74,10 +74,6 @@
 		justify-content: center;
 	}
 
-	.scenes-wrapper {
-		width: max(500px, 75.27vw);
-	}
-
 	.scene-container_3,
 	.scene-container_2,
 	.scene-container_1 {
@@ -146,7 +142,7 @@
 		}
 
 		.scene-container_3 {
-			max-width: 60%;
+			max-width: 75%;
 			margin-top: min(60px, 4.16vw);
 		}
 
@@ -156,10 +152,10 @@
 
 		.scene-cover_element_2,
 		.scene-cover_element_1 {
-			background-image: url(../images/arrow_episodes.png);
+			background-image: url(../images/arrow.png);
 			background-repeat: no-repeat;
 			background-size: min(71px, 8vw), min(38px, 5vw);
-			background-position: 95% 50%;
+			background-position: 100% 50%;
 			display: flex;
 			justify-content: center;
 			transform: rotate(180deg);
