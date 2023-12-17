@@ -66,6 +66,124 @@
 		margin-left: min(200px, 13.8vw);
 	}
 
+	.episodes-wrapper {
+		padding-bottom: min(60px, 4.16vw);
+	}
+
+	.episodes-title {
+		justify-content: center;
+	}
+
+	.scene-container_3,
+	.scene-container_2,
+	.scene-container_1 {
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.musical_tools,
+	.scene-description_method,
+	.scene-description_episode,
+	.scene-description_method_2,
+	.episodes-title_general-button {
+		display: none;
+	}
+
+	.scene-description {
+		padding: min(40px, 2.77vw);
+		max-width: none;
+		text-align: center;
+		padding-bottom: min(22px, 4.53vw);
+	}
+
+	.scene-description_title,
+	.scene-description_information {
+		width: auto;
+	}
+
+	.scene-description_title {
+		font-size: min(55px, 3.82vw);
+		margin: 0;
+	}
+
+	.scene-description_information {
+		font-size: min(27px, 1.87vw);
+	}
+
+	.scene-description_button {
+		font-size: min(25px, 1.74vw);
+	}
+
+	.scene-container_image_3,
+	.scene-container_image_2,
+	.scene-container_image_1 {
+		margin: 0;
+		height: min(600px, 41.6vw);
+		border-radius: min(32px, 2.22vw);
+		background-size: min(1300px, 92.8vw);
+	}
+
+	.scene-container_image_3 {
+		background-image: url(../images/episode_3_adaptation.jpg);
+	}
+
+	.scene-container_image_2 {
+		background-image: url(../images/episode_2_adaptation.jpg);
+	}
+
+	.scene-container_image_1 {
+		background-image: url(../images/episode_1_adaptation.jpg);
+	}
+
+	.epilogue-wrapper {
+		flex-direction: column;
+	}
+
+	.epilogue-description {
+		display: flex;
+		width: auto;
+	}
+
+	.epilogue-description_appeal {
+		display: none;
+	}
+
+	.epilogue-description {
+		display: block;
+		width: min(1000px, 69.4vw);
+	}
+
+	.epilogue-description_wrapper {
+		display: flex;
+		gap: min(50px, 3.47vw);
+		justify-content: center;
+	}
+
+	.epilogue-description_for-adaptate {
+		background-image: url(../images/epilogue.png);
+		background-size: min(700px, 58.3vw) min(800px, 66.6vw);
+		width: min(700px, 58.3vw);
+		height: min(800px, 66.6vw);
+		margin: 0 auto;
+		margin-top: min(40px, 3.3vw);
+		margin-bottom: min(40px, 3.3vw);
+		border-radius: min(40px, 3.3vw);
+	}
+
+	.description_text {
+		font-size: min(40px, 2.7vw);
+		text-align: center;
+	}
+
+	.description_name {
+		display: flex;
+		align-items: center;
+	}
+
+	.epilogue-image {
+		display: none;
+	}
+
 	.cards-wrapper {
 		grid-template-columns: repeat(2, 1.5fr);
 		height: min(1200px, 83.3vw);
@@ -91,45 +209,4 @@
 		margin-bottom: min(35px, 2.43vw);
 	}
 
-	@media (max-width: 500px) {
-
-		.cards-wrapper {
-			grid-template-columns: 1fr;
-			width: min(550px, 38.2vw);
-			height: min(300px, 20.83vw);
-		}
-
-		.card-box_2,
-		.card-box_3,
-		.card-box_4,
-		.card-box_5,
-		.card-box_6 {
-			display: none;
-		}
-
-		.card-box_1 {
-			height: min(399px, 31.8vw);
-		}
-
-		.cards-container {
-			background-image: url(../images/arrow.png);
-			background-repeat: no-repeat;
-			background-size: min(71px, 8vw), min(38px, 5vw);
-			background-position: 88% 48%;
-			display: flex;
-			height: min(670px, 46.5vw);
-			transform: rotate(180deg);
-		}
-
-		.cards-cover {
-			width: 100%;
-			background-image: url(../images/arrow.png);
-			background-repeat: no-repeat;
-			background-size: min(71px, 8vw), min(38px, 5vw);
-			background-position: 88% 48%;
-			display: flex;
-			justify-content: center;
-			transform: rotate(180deg);
-		}
-	}
 }

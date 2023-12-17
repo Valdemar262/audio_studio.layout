@@ -246,7 +246,9 @@ h1::after {
 	line-height: 110%;
 }
 
-.scene-container {
+.scene-container_3,
+.scene-container_2,
+.scene-container_1 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: min(60px, 4.16vw);
@@ -255,7 +257,9 @@ h1::after {
 	border-radius: min(32px, 2.22vw);
 }
 
-.scene-container_image {
+.scene-container_image_3,
+.scene-container_image_2,
+.scene-container_image_1 {
 	display: flex;
 	align-items: center;
 	margin-right: min(53px, 3.68vw);
@@ -346,6 +350,7 @@ h2 {
 	font-weight: 400;
 }
 
+.description_text,
 h4 {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: min(33px, 2.08vw);
