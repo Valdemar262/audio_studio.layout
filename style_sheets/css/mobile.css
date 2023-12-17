@@ -37,4 +37,43 @@
 		font-size: 2.5vw;
 		padding: 2vw 1.6vw;
 	}
+
+	.cards-wrapper {
+		grid-template-columns: 1fr;
+		width: min(550px, 38.2vw);
+		height: min(300px, 20.83vw);
+	}
+
+	.card-box_2,
+	.card-box_3,
+	.card-box_4,
+	.card-box_5,
+	.card-box_6 {
+		display: none;
+	}
+
+	.card-box_1 {
+		height: min(399px, 31.8vw);
+	}
+
+	.cards-container {
+		background-image: url(../images/arrow.png);
+		background-repeat: no-repeat;
+		background-size: min(71px, 8vw), min(38px, 5vw);
+		background-position: 88% 48%;
+		display: flex;
+		height: min(670px, 46.5vw);
+		transform: rotate(180deg);
+	}
+
+	.cards-cover {
+		width: 100%;
+		background-image: url(../images/arrow.png);
+		background-repeat: no-repeat;
+		background-size: min(71px, 8vw), min(38px, 5vw);
+		background-position: 88% 48%;
+		display: flex;
+		justify-content: center;
+		transform: rotate(180deg);
+	}
 }
