@@ -66,6 +66,75 @@
 		margin-left: min(200px, 13.8vw);
 	}
 
+	.episodes-wrapper {
+		padding-bottom: min(60px, 4.16vw);
+	}
+
+	.episodes-title {
+		justify-content: center;
+	}
+
+	.scene-container_3,
+	.scene-container_2,
+	.scene-container_1 {
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.musical_tools,
+	.scene-description_method,
+	.scene-description_episode,
+	.scene-description_method_2,
+	.episodes-title_general-button {
+		display: none;
+	}
+
+	.scene-description {
+		padding: min(40px, 2.77vw);
+		max-width: none;
+		text-align: center;
+		padding-bottom: min(22px, 4.53vw);
+	}
+
+	.scene-description_title,
+	.scene-description_information {
+		width: auto;
+	}
+
+	.scene-description_title {
+		font-size: min(55px, 3.82vw);
+		margin: 0;
+	}
+
+	.scene-description_information {
+		font-size: min(27px, 1.87vw);
+	}
+
+	.scene-description_button {
+		font-size: min(25px, 1.74vw);
+	}
+
+	.scene-container_image_3,
+	.scene-container_image_2,
+	.scene-container_image_1 {
+		margin: 0;
+		height: min(600px, 41.6vw);
+		border-radius: min(32px, 2.22vw);
+		background-size: min(1300px, 92.8vw);
+	}
+
+	.scene-container_image_3 {
+		background-image: url(../images/episode_3_adaptation.jpg);
+	}
+
+	.scene-container_image_2 {
+		background-image: url(../images/episode_2_adaptation.jpg);
+	}
+
+	.scene-container_image_1 {
+		background-image: url(../images/episode_1_adaptation.jpg);
+	}
+
 	.epilogue-wrapper {
 		flex-direction: column;
 	}
