@@ -175,4 +175,54 @@
 			padding: 2vw 1.6vw;
 		}
 	}
+
+	.epilogue-wrapper {
+		flex-direction: column;
+	}
+
+	.epilogue-description {
+		display: flex;
+		width: auto;
+	}
+
+	.epilogue-description_appeal {
+		display: none;
+	}
+
+	.epilogue-description {
+		display: block;
+		width: min(1000px, 69.4vw);
+	}
+
+	.epilogue-description_wrapper {
+		display: flex;
+		gap: min(50px, 3.47vw);
+		justify-content: center;
+	}
+
+	.epilogue-description_for-adaptate {
+		background-image: url(../images/epilogue.png);
+		background-size: min(700px, 58.3vw) min(800px, 66.6vw);
+		width: min(700px, 58.3vw);
+		height: min(800px, 66.6vw);
+		margin: 0 auto;
+		margin-top: min(40px, 3.3vw);
+		margin-bottom: min(40px, 3.3vw);
+		border-radius: min(40px, 3.3vw);
+	}
+
+	.description_text {
+		font-size: min(40px, 2.7vw);
+		text-align: center;
+	}
+
+	.description_name {
+		display: flex;
+		align-items: center;
+	}
+
+	.epilogue-image {
+		display: none;
+	}
+
 }
