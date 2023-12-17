@@ -93,6 +93,7 @@
 		padding: min(40px, 2.77vw);
 		max-width: none;
 		text-align: center;
+		padding-bottom: min(22px, 4.53vw);
 	}
 
 	.scene-description_title,
