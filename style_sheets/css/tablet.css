@@ -184,6 +184,43 @@
 		display: none;
 	}
 
+
+	.questionnaire-wrapper {
+		flex-direction: column;
+		width: min(900px, 62.5vw);
+	}
+
+	.questionnaire-wrapper_legend {
+		text-align: center;
+	}
+
+	.questionnaire_title {
+		width: auto;
+		margin: min(33px, 2.35vw) 0 min(40px, 2.77vw) 0;
+	}
+
+	.personal-information_field {
+		width: min(1000px, 69.4vw);
+		margin-bottom: (40px, 2.77vw)
+	}
+
+	.personal-information {
+		border-radius: min(6px, 0.42vw);
+	}
+
+	.questionnaire_form {
+		text-align: center;
+	}
+
+	.submit_btn {
+		font-size: min(25px, 1.74vw);
+		padding: min(15px, 1.04vw) min(25px, 1.74vw);
+	}
+
+	.questionnaire::after {
+		left: min(120px, 15.83vw);
+	}
+
 	.cards-wrapper {
 		grid-template-columns: repeat(2, 1.5fr);
 		height: min(1200px, 83.3vw);
