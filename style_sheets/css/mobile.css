@@ -44,15 +44,15 @@
 		height: min(300px, 20.83vw);
 	}
 
-	.card-box_2,
-	.card-box_3,
-	.card-box_4,
-	.card-box_5,
-	.card-box_6 {
+	.card-box:nth-child(2n),
+	.card-box:nth-child(3n),
+	.card-box:nth-child(4n),
+	.card-box:nth-child(5n),
+	.card-box:nth-child(6n) {
 		display: none;
 	}
 
-	.card-box_1 {
+	.card-box {
 		height: min(399px, 31.8vw);
 	}
 
