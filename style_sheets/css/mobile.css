@@ -44,11 +44,7 @@
 		height: min(300px, 20.83vw);
 	}
 
-	.card-box:nth-child(2n),
-	.card-box:nth-child(3n),
-	.card-box:nth-child(4n),
-	.card-box:nth-child(5n),
-	.card-box:nth-child(6n) {
+	.card-box:nth-child(n+2) {
 		display: none;
 	}
 
@@ -56,24 +52,22 @@
 		height: min(399px, 31.8vw);
 	}
 
+	.cards-cover,
 	.cards-container {
 		background-image: url(../images/arrow.png);
 		background-repeat: no-repeat;
 		background-size: min(71px, 8vw), min(38px, 5vw);
-		background-position: 88% 48%;
+		background-position: 79% 50%;
 		display: flex;
-		height: min(670px, 46.5vw);
 		transform: rotate(180deg);
+	}
+
+	.cards-container {
+		height: min(670px, 46.5vw);
 	}
 
 	.cards-cover {
 		width: 100%;
-		background-image: url(../images/arrow.png);
-		background-repeat: no-repeat;
-		background-size: min(71px, 8vw), min(38px, 5vw);
-		background-position: 88% 48%;
-		display: flex;
 		justify-content: center;
-		transform: rotate(180deg);
 	}
 }
