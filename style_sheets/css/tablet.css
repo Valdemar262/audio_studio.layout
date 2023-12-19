@@ -184,6 +184,7 @@
 		display: none;
 	}
 
+
 	.questionnaire-wrapper {
 		flex-direction: column;
 		width: min(900px, 62.5vw);
@@ -219,4 +220,30 @@
 	.questionnaire::after {
 		left: min(120px, 15.83vw);
 	}
+
+	.cards-wrapper {
+		grid-template-columns: repeat(2, 1.5fr);
+		height: min(1200px, 83.3vw);
+	}
+
+	.card-box {
+		padding: min(10px, 0.69vw);
+	}
+
+	.cards-information {
+		padding-top: min(20px, 1.5vw);
+	}
+
+	.star {
+		width: min(35px, 2.43vw);
+	}
+
+	h3 {
+		width: min(400px, 27.7vw);
+	}
+
+	h4 {
+		margin-bottom: min(35px, 2.43vw);
+	}
+
 }
