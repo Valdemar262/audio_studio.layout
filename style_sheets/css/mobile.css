@@ -1,0 +1,73 @@
+@media (max-width: 500px) {
+
+	.scene-container_2,
+	.scene-container_1 {
+		display: none;
+	}
+
+	.scene-container_3 {
+		max-width: 75%;
+		margin-top: min(60px, 4.16vw);
+	}
+
+	.scene-cover_element_1 {
+		max-width: 100%;
+	}
+
+	.scene-cover_element_2,
+	.scene-cover_element_1 {
+		background-image: url(../images/arrow.png);
+		background-repeat: no-repeat;
+		background-size: min(71px, 8vw), min(38px, 5vw);
+		background-position: 100% 50%;
+		display: flex;
+		justify-content: center;
+		transform: rotate(180deg);
+	}
+
+	.scene-description_title {
+		font-size: 5vw;
+	}
+
+	.scene-description_information {
+		font-size: 2.7vw;
+	}
+
+	.scene-description_button {
+		font-size: 2.5vw;
+		padding: 2vw 1.6vw;
+	}
+
+	.cards-wrapper {
+		grid-template-columns: 1fr;
+		width: min(550px, 38.2vw);
+		height: min(300px, 20.83vw);
+	}
+
+	.card-box:nth-child(n+2) {
+		display: none;
+	}
+
+	.card-box {
+		height: min(399px, 31.8vw);
+	}
+
+	.cards-cover,
+	.cards-container {
+		background-image: url(../images/arrow.png);
+		background-repeat: no-repeat;
+		background-size: min(71px, 8vw), min(38px, 5vw);
+		background-position: 79% 50%;
+		display: flex;
+		transform: rotate(180deg);
+	}
+
+	.cards-container {
+		height: min(670px, 46.5vw);
+	}
+
+	.cards-cover {
+		width: 100%;
+		justify-content: center;
+	}
+}
